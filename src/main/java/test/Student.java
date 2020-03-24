@@ -1,6 +1,13 @@
 package test;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="stu_info")
 public class Student {
+    @Id
     private int id;
     private String name;
     private int marks;
