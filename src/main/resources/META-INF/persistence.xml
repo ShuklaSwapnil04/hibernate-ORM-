@@ -20,9 +20,10 @@
 
     <property name="hibernate.hbm2ddl.auto" value="create"/>
 
-    <property name="hibernate.dialect" value="org.hibernate.dialect.PostgresSQLDialect"/>
+        <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL82Dialect" />
 
-</properties>
+
+    </properties>
 
 </persistence-unit>
 
