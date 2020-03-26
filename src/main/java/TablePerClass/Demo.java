@@ -1,4 +1,6 @@
-package inherit;
+package TablePerClass;
+
+
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -7,16 +9,16 @@ import javax.persistence.Persistence;
 
 public class Demo {
     public static void main(String[] args) {
-        A a=new A();
+        D a=new D();
         a.setId(1);
         a.setName("A");
 
-        B b=new B();
+        E b=new E();
         b.setId(2);
         b.setName("B");
         b.setValueOne("b");
 
-        C c=new C();
+        F c=new F();
         c.setId(3);
         c.setName("C");
         c.setValueTwo("c");

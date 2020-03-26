@@ -1,4 +1,4 @@
-package inherit;
+package TablePerClass;
 
 
 import javax.persistence.DiscriminatorValue;
@@ -6,8 +6,8 @@ import javax.persistence.Entity;
 
 @Entity
 @DiscriminatorValue(value="B")
-public class B  extends A{
-private String valueOne;
+public class E extends D {
+    private String valueOne;
 
     public String getValueOne() {
         return valueOne;
